@@ -25,7 +25,7 @@ python3 frame_test.py -f ../data.json
 The test scripy **`frame_test`** expects an argument of the path to a json file. 
 This JSON file has the following structure and contains path, column names and data type( for each column), for each csv file.
 
-**`data.jsojn`**:
+**`data.jsoj`**:
 
 ```python
 [
@@ -57,7 +57,7 @@ This JSON file has the following structure and contains path, column names and d
     ....
 ]
 ```
-This way it can support more csv file just by adding the required info. Parent folder also contains an **`/input folder`** that stores the csv files used for testing.
+This way it can support more csv file just by adding the required info. Parent folder also contains an **`/input `** folder that stores the csv files used for testing.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
