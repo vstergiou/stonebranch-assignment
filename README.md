@@ -7,11 +7,10 @@ Folder **`/src`** contains the source code of the project, while folder **`/inpu
 
 ## Installation
 
-No other package except from python itself is required to run the code.
 
-```bash
-pip install foobar
-```
+The package does not have any dependencies besides Python itself.
+
+
 
 ## Usage
 
