@@ -1,0 +1,36 @@
+[
+    {
+        "path": "../input/CUSTOMER_SAMPLE.csv",
+        "header_columns" : ["CUSTOMER_CODE"],
+        "data_types" : ["CHAR"]   
+    },
+    {
+        "path": "../input/CUSTOMER.csv",
+        "header_columns" : [
+                            "CUSTOMER_CODE",
+                            "FIRSTNAME",
+                            "LASTNAME"
+                        ],
+        "data_types" : ["CHAR","CHAR","CHAR" ]   
+    },
+    {
+        "path": "../input/INVOICE.csv",
+        "header_columns" : [
+                            "CUSTOMER_CODE",
+                            "INVOICE_CODE",
+                            "AMOUNT",
+                            "DATE"
+                        ],
+        "data_types" : ["CHAR","CHAR","FLOAT", "DATE" ]   
+    }, 
+    {
+        "path": "../input/INVOICE_ITEM.csv",
+        "header_columns" : [
+                            "INVOICE_CODE",
+                            "ITEM_CODE",
+                            "AMOUNT",
+                            "QUANTITY"
+                        ],
+        "data_types" : ["CHAR","CHAR","FLOAT", "INTEGER" ]   
+    }
+]
