@@ -20,7 +20,7 @@ To test the code run
 python3 frame_test.py -f ../data.json
 ```
 
-
+Use **`-f`** to specify path to JSON file.
 ## Input output.
 The test scripy **`frame_test`** expects an argument of the path to a json file. 
 This JSON file has the following structure and contains path, column names and data type( for each column), for each csv file.
