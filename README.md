@@ -25,7 +25,7 @@ Use **`-f`** to specify path to JSON file.
 The test scripy **`frame_test`** expects an argument of the path to a json file. 
 This JSON file has the following structure and contains path, column names and data type( for each column), for each csv file.
 
-**`data.jsoj`**:
+**`data.json`**:
 
 ```python
 [
